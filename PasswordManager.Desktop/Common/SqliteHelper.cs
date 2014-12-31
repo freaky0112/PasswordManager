@@ -4,9 +4,8 @@ using System.Data;
 using System.Data.Common;
 using System.Data.SQLite;
 using System.Linq;
-using System.Web;
 
-namespace PasswordManager {
+namespace PasswordManager.Desktop {
     public class SqliteHelper {
 
             private string connectionString = string.Empty;

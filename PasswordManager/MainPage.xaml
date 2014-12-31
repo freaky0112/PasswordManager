@@ -23,9 +23,9 @@
 			<TextBox TextWrapping="Wrap" Margin="10,0" TextAlignment="Center" Text="输入帐号"/>
 		</Border>
 		<Grid HorizontalAlignment="Left" Height="100" Margin="10,255,0,0" VerticalAlignment="Top" Width="280">
-			<Button Content="生成" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+            <Button x:Name="Generate" Content="生成" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Click="Generate_Click"/>
             <Button Content="保存" HorizontalAlignment="Right" Margin="170,10,10,0" VerticalAlignment="Top" Width="100"/>
-            <sdk:Label x:Name="lblPassword" HorizontalAlignment="Center" Height="28" Margin="0,10,0,0" VerticalAlignment="Bottom" Width="120"/>
+            <sdk:Label x:Name="lblPassword" HorizontalAlignment="Center" Height="28" Margin="0,10,0,0" VerticalAlignment="Bottom" Width="120" />
         </Grid>
 
 
